@@ -2,6 +2,7 @@
 import connect_table
 from awscli.errorhandler import ClientError
 import logging
+import dinesh_search
 
 connection = connect_table.dynamoDB
 key_schema = [
